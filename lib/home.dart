@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// cambios en el programa
 
 class ConversionApp extends StatefulWidget {
   const ConversionApp({super.key});
@@ -150,11 +149,4 @@ class ConversionAppState extends State<ConversionApp> {
       ),
     );
   }
-}
-
-void main() {
-  runApp(const MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: ConversionApp(),
-  ));
 }

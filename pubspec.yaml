@@ -1,0 +1,34 @@
+name: app_gbmb
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0-430.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Sigmar
+      fonts:
+        - asset: assets/fonts/Sigmar-Regular.ttf
+      
+    - family: Oswald
+      fonts:
+        - asset: assets/fonts/Oswald-VariableFont_wght.ttf
+    - family: Oldenburg
+      fonts:
+        - asset: assets/fonts/Oldenburg-Regular.ttf
+    - family: Martian
+      fonts:
+        - asset: assets/fonts/martian.ttf
